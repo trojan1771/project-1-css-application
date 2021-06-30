@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="aboutcss.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark navbar-expand-md fixed-top py-4">
+        <a class="navbar-brand" href="index.html"><span class="little">LITTLE</span><span class="world"> WORLD</span><span class="school"> SCHOOL</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav mr-auto ">
+          <li class="nav-item active">
+            <div class="dropdown">
+                
+                <a href="#" onclick="myFunction()" class="nav-link active" id="dropbtn">Establishment</a>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Founders</a>
+                  <a href="#about">Faculty</a>
+                  
+                </div>
+              </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Support Pillars</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Why you should choose us</a>
+          </li>
+     
+        <ul class="navbar-nav ">
+            <li class="nav-item"><a href="#" onclick="document.getElementById('setimage').src='setting1.png'" class="nav-link "><img src="setting2.png" height=20px id="setimage"></a></li>
+        
+          <li class="nav-item "><button class="btn btn-info pull-right nav-link" onmouseover="nad()" id="admis">Click me to know total admissions</button></li>
+        </ul>
+      </div>
+      
+      </nav>
+      <br><br><br><br>
+        <div class="container">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                
+                </ul>
+            
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                <div class="carousel-item active ">
+                    <div class="d-flex justify-content-center">
+                    <img src="s1.jpg" alt="Los Angeles" height=500px >
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="d-flex justify-content-center">
+                        <img src="s2.jpg" alt="Los Angeles" height=500px >
+                        </div>
+                </div>
+                
+                </div>
+            
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                </a>
+            
+            </div>
+        </div>
+        <div class="container">
+        <div class="card-deck justify-content-center">
+          
+          <div class="card bg-light" >
+            <div class="card-body text-center justify-content-center" style="width: 340px;">
+              <img class="card-img-top justify-content-center" src="award.jpg" width="20" alt="Card image">
+              <h4 class="card-title">AWARDS</h4>
+              <a href="#" class="btn btn-primary stretched-link" onclick="alertfunc()">GO TO</a>
+              
+            </div>
+          </div>
+
+          <div class="card bg-light">
+            <div class="card-body text-center justify-content-center" style="width: 340px;">
+              <img class="card-img-top justify-content-center" src="ca.jpg" width="20" alt="Card image">
+              <div class="card-body">
+                <h4 class="card-title">CULTURAL ACTIVITIES</h4>
+              <a href="#" class="btn btn-primary stretched-link" onclick="alertfunc()">GO TO</a>
+
+              </div>
+              
+              
+            </div>
+          </div>
+
+          <div class="card bg-light">
+            <div class="card-body text-center justify-content-center" style="width: 340px;">
+              <img class="card-img-top" src="ceremony.jpg" width="20" alt="Card image">
+              <h4 class="card-title">CEREMONIES</h4>
+              <a href="#" class="btn btn-primary stretched-link" onclick="alertfunc()">GO TO</a>
+              
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <br><br><br><br>
+
+        <div class="card-columns">
+          <div class="card bg-primary">
+            <a href="#" onclick="document.getElementById('box1').innerHTML='With on an average 1400 new admissions every year '">
+            <div class="card-body text-center">
+              <p class="card-text" id="box1">8000+ Students</p>
+            </div></a>
+          </div>
+          <div class="card bg-warning">
+            <a href="#" onclick="document.getElementById('box2').innerHTML='With new faculty being added every year'">
+            <div class="card-body text-center">
+              <p class="card-text" id="box2">Highly Trained Teachers</p>
+            </div></a>
+          </div>
+          <div class="card bg-success">
+            <a href="#" onclick="document.getElementById('box3').innerHTML='With topper percent increasing evry year'">
+            <div class="card-body text-center">
+              <p class="card-text" id="box3">Excellent Result output</p>
+            </div></a>
+          </div>
+          <div class="card bg-danger">
+            <a href="#" onclick="document.getElementById('box4').innerHTML='With Smart Classes'">
+            <div class="card-body text-center">
+              <p class="card-text" id="box4">Magnificent Learning Environment</p>
+            </div></a>
+          </div>
+          <div class="card bg-light">
+            <a href="#" onclick="document.getElementById('box5').innerHTML='Since past 6 years continously'">
+            <div class="card-body text-center">
+              <p class="card-text" id="box5">Ranked Best in Jabalpur</p>
+            </div></a>
+          </div>
+          <div class="card bg-info">
+            <a href="#" onclick="document.getElementById('box6').innerHTML='With 2 newly constructed buildings'">
+            <div class="card-body text-center">
+              <p class="card-text">Seperate wing for Montessori</p>
+            </div></a>
+          </div>
+        </div>
+
+        <footer><center>
+          <button class="btn btn-light justify-content-center" onclick="fun()">Exit Website</button>
+          <button class="btn btn-light justify-content-center" onclick="redir()">Redirect to Home Page</button>
+          
+          </center>
+          
+          <p id="demo1"></p>
+        </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="aboutjs.js"></script>
+
+</body>
+</html>

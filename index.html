@@ -6,15 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Little World School</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <div class="head-title">
         <img src="diksha.png" alt="diksha image" class="diksha-img" width=100>
         <ul id="list">
-            <li><a href="#">About Us</a></li>
+            <li><a href="about.html" target="_blank">About Us</a></li>
             <li><a href="#">Academics</a></li>
             <li><a href="#">News</a></li>
-            <li><a href="#">Students</a></li>
+            <li><div class="dropdown">
+                <a href="#" onclick="myFunction()" class="dropbtn">Student</a>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="register1.xhtml">Student Register</a>
+                  <a href="#about">Student Login</a>
+                  
+                </div>
+              </div></li>
             <li><a href="#">Gallery</a></li>
             <li><a href="#">Activities</a></li>
 
@@ -28,8 +36,12 @@
         
     </div>
     <div>
+        
         <br><br><br><br><br><br><br><br><br>
-        </div>
+    </div>
+
+   
+        
     <div class="introduction" width=100% height=1000>
         
         <img src="school1.jpg" height="240" id="intro-image">
@@ -55,14 +67,16 @@
         <br><br><br>
     </div>
 
-    <div class="events">
-        <h1 id="event-head"><center>School Events</center></h1>
-
-    </div>
+   
 
     <footer class="footer">
         <center>***************</center>
-        <center><b>&copy BT20CSE CHETAN AMRITANSHU</b></center>
+        <center><b>&copy BT20CSE141 CHETAN AMRITANSHU</b></center>
     </footer>
+    <script src="index.js"></script>
+
+
+
+    
 </body>
 </html>
